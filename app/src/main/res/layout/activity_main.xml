@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/camera_preview"
+    android:background="@color/white"
+    tools:context="test.de.recrutement.activities.MainActivity">
+
+    <SurfaceView
+        android:id="@+id/preview"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="55dp"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/tv_main_activity_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:padding="5dp"
+                android:text=""
+                android:textSize="@dimen/tv_normal_text_size" />
+
+            <TextView
+                android:id="@+id/tv_main_activity_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="5dp"
+                android:text="Que:1/30"
+                android:textSize="@dimen/tv_normal_text_size" />
+
+            <LinearLayout
+                android:id="@+id/ll_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_main_activity_timer"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:id="@+id/tv_main_activity_ques"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="@dimen/tv_normal_text_size"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        <ListView
+            android:id="@+id/lv_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:layout_below="@+id/ll_question"
+            android:layout_above="@+id/btn_main_activity_submit">
+
+        </ListView>
+<!--
+
+            <ScrollView
+                android:id="@+id/scroll_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:layout_above="@+id/btn_main_activity_next"
+                android:layout_below="@+id/ll_question">
+                <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_option1"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="M.S.Dhoni." />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_option2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_option1"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Virat Kohli." />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_option3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_option2"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rohit Sharma." />
+                </LinearLayout>
+                    <LinearLayout
+                    android:id="@+id/ll_option4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_option3"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yuvraj Singh." />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_option5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_option4"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yuvraj Singh." />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_option6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_option5"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yuvraj Singh." />
+                </LinearLayout>
+            </LinearLayout>
+            </ScrollView>
+-->
+            <Button
+                android:id="@+id/btn_main_activity_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/Submit_Answer"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">"test de recrutemen"</string>
+    <string name="OK">D\'accord</string>
+    <string name="exit">Sortie</string>
+
+
+
+    <!-- Real  And Demo Test  -->
+    <string name="real_test_no_question">Pas de questions disponibles dans le vrai questionnaire </string>
+    <string name="demo_test_no_question">Pas de questions disponible dans le questionnaire de démonstration</string>
+    <string name="internet_connection">Vérifiez votre connexion internet SVP </string>
+
+    <!-- TestType Activity  -->
+    <string name="start_real_test">Démarrer le vrai questionnaire</string>
+    <string name="start_demo_test">Démarrer le questionnaire de démonstration</string>
+
+    <!--Result Activity -->
+    <string name="have_done">Vous avez passé</string>
+    <string name="next_one">question(s), prêt pour la prochaine ?</string>
+
+
+    <string name="Next_button">Suivante</string>
+    <string name="Finish_button">Terminer</string>
+
+    <!-- Main Activity -->
+    <string name="Submit_Answer">Envoyer la réponse</string>
+    <string name="alert_ok">OK</string>
+    <string name="submit_sucessfully">Merci d\'avoir soumis votre réponse."</string>
+
+    <!-- Splash Screen -->
+    <string name="Questionnaire">Questionnaire</string>
+    <string name="please_wait">"Patientez SVP...</string>
+    <string name="start">Démarrer</string>
+
+
+    <!-- Terms and Conditions -->
+    <string name="Terms_and_Conditions">Termes et conditions</string>
+    <string name="Not_Data_Available">Pas de données disponibles</string>
+    <string name="I_Agree">J\'accepte</string>
+
+
+
+
+
+
+    <!-- Toast Message -->
+    <string name="something_wrong">Une erreur est survenue, essayez à nouveau</string>
+
+
+
+    <!-- Api Service -->
+    <string name="Server_is_not_responding">Le serveur ne répond pas</string>
+
+    <!-- Terms And Condition -->
+    <string name="key">tos</string>
+    <string name="device_id">5e1070ddb76a587f</string>
+
+    <!-- Multipart Request -->
+    <string name="volly_error">IOException writing to ByteArrayOutputStream bos, building the multipart request.</string>
+
+    <!-- MarshMallow Permission -->
+    <string name="requestPermissionForPhoneCall">Accès aux appels nécessaire. Merci de l\'authoriser.</string>
+    <string name="requestPermissionForGetAccounts">Accès au compte nécessaire. Merci de l\'authoriser.</string>
+    <string name="requestPermissionForReadContacts">Accès à la lecture des contacts nécessaire. Merci de l\'authoriser.</string>
+    <string name="requestPermissionForAccessFineLocation">Accès à la localisation précise nécessaire. Merci de l\'authoriser.</string>
+    <string name="requestPermissionForAccessCrossLocation">Accès à la localisation nécessaire. Merci de l\'authoriser.</string>
+    <string name="requestPermissionForRecord">Accès au microphone nécessaire. Merci de l\'authoriser.</string>
+    <string name="requestPermissionForExternalStorage">Accès au stockage externe nécessaire. Merci de l\'authoriser.</string>
+    <string name="requestPermissionForReadExternalStorage">Accès en lecture au stockage externe nécessaire. Merci de l\'authoriser.</string>
+    <string name="requestPermissionForCamera">Permission d\'accéder à la caméra nécessaire. Merci de l\'authoriser.</string>
+
+    <!-- Android Utils -->
+
+    <string name="test_zip">test1.zip</string>
+
+    <!-- QuestionnaireService -->
+
+    <string name="please_wait_questionnaire">Patientez SVP</string>
+
+    <!-- Send Audio Service OR SendImageService -->
+    <string name="notification_mbuilder_title_text">Questionnaire</string>
+    <string name="notification_mbuilder_contenttext">Envoie...</string>
+    <string name="multipart_mbuilder_content_text">Envoie de l\'audio réussi</string>
+    <string name="Image_uploaded_sucessfully">Envoie des images réussi</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_term_and_condition_avtivity">TermAndConditionAvtivity</string>
+    <string name="title_activity_term_condition">TermConditionActivity</string>
+    <string name="title_activity_test_type">TestTypeActivity</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="Error_401">Error 401</string>
+
+    <!-- Deep Linking -->
+
+    <!-- Local -->
+    <string name="local_host">192.168.1.43</string>
+    <string name="local_pathPrefix">/questionnaire/public/questionnaire</string>
+
+    <!-- Local -->
+    <string name="live_host">questionnairesapi.voicedigit.com</string>
+    <string name="live_pathPrefix">public/questionnaire/</string>
+
+
+    <!-- Intro Slider -->
+    <string name="next">NEXT</string>
+    <string name="prev">Prev</string>
+
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="test.de.recrutement.activities.ResultActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_dialog_done_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:text=""
+            android:textSize="@dimen/tv_normal_text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_dialog_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dialog_done_question"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/Next_button"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_dialog_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_dialog_done_question"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/Finish_button"
+            android:visibility="gone"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>

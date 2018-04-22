@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "726702438735",
+    "firebase_url": "https://questionnaire-b1180.firebaseio.com",
+    "project_id": "questionnaire-b1180",
+    "storage_bucket": "questionnaire-b1180.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726702438735:android:c48b80cf3210ed33",
+        "android_client_info": {
+          "package_name": "test.de.recrutement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726702438735-eqnopm19ejnsmfivpd71co38po1c32lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB73Noe3DwqCL3o2kYEToBontRFmRI_wtc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
